@@ -51,7 +51,17 @@ const myFun = function(){
 
     let myName = "Jiturajsharma";
     let anotherName = myName;
-    anotherName = "INDIA";
+    anotherName = "I.N.D.I.A";
 
-    console.log(myName);
-    console.log(anotherName);
+    // console.log(myName);
+    // console.log(anotherName);
+
+
+    const userOne = {
+        name:"jiturajsharma",
+        gmail: "jiturajsharma@google.com"
+    }
+    let userTwo = userOne;
+    userTwo.gmail = "mitu@google.com"
+    console.log(userOne);
+    console.log(userTwo);
