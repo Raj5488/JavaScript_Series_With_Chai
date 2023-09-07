@@ -5,10 +5,10 @@
 
 
 //**************To Convert String to Number Only */
-
 // let score = "33";
 // let valueInNumber = Number(score);
 // console.log(typeof(valueInNumber))
+
 
 
 
@@ -26,6 +26,7 @@
     // console.log(typeof (valueInNumber))
     // console.log(valueInNumber)
 
+    
 
 
 
@@ -34,6 +35,7 @@
     // let valueInNumber = Number(score);
     // console.log(typeof (valueInNumber))
     // console.log(valueInNumber) 
+
 
 
     //**************If we have boolean */
@@ -45,21 +47,21 @@
 
 
 
+
     /****************NUMBER TO BOOLEAN***************/
     // let isLoggedIn = 1;
     // let booleanIsLoggedIn = Boolean(isLoggedIn);
     // console.log(booleanIsLoggedIn)
     // console.log(typeof(booleanIsLoggedIn))
 
-
+    
 
 /* *********if put string and convert Boolean************* */
     // let isLoggedIn = "Jitu raj sharma";
     // let booleanIsLoggedIn = Boolean(isLoggedIn);
     // console.log(booleanIsLoggedIn)
     // console.log(typeof(booleanIsLoggedIn))
-
-
+    
 
 
 
@@ -70,11 +72,13 @@
     // console.log(typeof(booleanIsLoggedIn))
 
 
+
+
     /***********************NUMBER TO STRING */
     let NumberOnly = 32;
     let NumberString = String(NumberOnly);
-    console.log(NumberString)
-    console.log(typeof(NumberString));
+    // console.log(NumberString)
+    // console.log(typeof(NumberString));
 
     //***************************SUMMARY********************** */
     /*
@@ -123,3 +127,4 @@ let str3 = str1 + str2;
 let gameCounter = 100;
 ++gameCounter;
 console.log(gameCounter)
+
