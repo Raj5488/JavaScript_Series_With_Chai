@@ -45,3 +45,50 @@ console.log(logInUserMessage("JITU"))
 // console.log(logInUserMessage(""))
 // console.log(logInUserMessage()) // output-> undefied
 
+
+// +++++++++++++FIRST METHODS with the help of funciton insert in array++++
+
+// function calculateCarrPrice(...num1){
+//     return num1    
+// }
+// console.log(calculateCarrPrice(200, 300, 500, 700))
+
+
+
+// ++++++++++++++++++SECOND METHODS++++++++++
+// function calculateCarrPrice(val1, val2,...num1){
+//     return num1    
+// }
+// console.log(calculateCarrPrice(200, 300, 500, 700))
+
+
+
+
+
+
+
+// +++++++++anyother Object ko function me insert kar ke array me convert kar skte hai+++++++++++++++++++++++++++++++++++++++++++++
+const user ={
+    username: "JITU-KUMAR",
+    price: 1999
+}
+//notedpoint:- if price name mistake then it gives undefined
+
+function handleObject(anyObject){
+    console.log(`Username is ${anyObject.username} and price is ${anyObject.price}`)
+}
+// handleObject(user)
+handleObject({
+    username: "RAJU",
+    price: 6000
+})
+
+
+
+///////////IN FUNCTION CONVERT TO ARRAY
+const myNewArray = [20, 34, 35,55,234,];
+function returnSecondValue(getArray){
+        return getArray[2]
+}
+console.log(returnSecondValue(myNewArray))
+console.log(returnSecondValue([345,36,654,432,56]))
