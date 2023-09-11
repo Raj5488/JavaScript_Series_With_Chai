@@ -14,7 +14,7 @@ const allHeroes = marvel_heros.concat(dc_heros);
 
 //+++++++3rd Methods to add array is called SPREAD OPERATOR++++
 const all_New_Array = [...marvel_heros,...dc_heros];
-console.log(all_New_Array)
+// console.log(all_New_Array)
 
 
 
@@ -26,10 +26,10 @@ const RealAnother = anotherArray.flat(Infinity);
 
 
 // to chek specified array ?? and how to convert array
-console.log(Array.isArray("JITU-SHARMA"));
-console.log(Array.from("JITU-RAJ-SHARMA"))
+// console.log(Array.isArray("JITU-SHARMA"));
+// console.log(Array.from("JITU-RAJ-SHARMA"))
 
-// console.log(Array.from({name:"JITU"}))  // nahi banne par EMPTY array deta hai
+console.log(Array.from({name:"JITU"}))  // nahi banne par EMPTY array deta hai
 
 
 

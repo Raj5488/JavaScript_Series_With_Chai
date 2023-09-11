@@ -1,7 +1,7 @@
 const score = 500;
 // console.log(score);
 
-const balanaced =new Number(500);
+// const balanaced =new Number(score);
 // console.log(balanaced)
 // console.log(balanaced.toString().length);
 // console.log(balanaced.toFixed(2))
@@ -44,8 +44,8 @@ console.log(Math.min(5, 4, 8));
 
 // it always gives number 0 to 1
 console.log(Math.random());
-console.log(Math.floor(Math.random()*10) + 1);
-console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.floor(Math.random()*10) + 1);
+// console.log(Math.floor(Math.random()*10) + 1);
 
 const max = 10;
 const min = 20;

@@ -18,8 +18,8 @@ function addTwoNum(num1, num2){
 // addTwoNum(6, "a")
 // addTwoNum(6, null)
 
-// const result = addTwoNum(6,10);
-// console.log("results:->",result) // output-> undefied
+const result = addTwoNum(6,10);
+console.log("results:->",result) // output-> undefied
 
 
 
