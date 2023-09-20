@@ -3,14 +3,43 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DOM LAST</title>
+    <title>Document</title>
 </head>
-<body style="background-color: #818181;">
+<body>
         <ul class="language">
             <li>JavaScript</li>
         </ul>
 </body>
+
 <script>
+    
+    function addLanguage(language){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(language))
+        document.querySelector('.language').appendChild(li)
+    }
+
+    addLanguage("Paython")
+
+    // Editing 
+
+    const secondLang = document.querySelector("li:nth-child(1)")
+        // secondLang.innerHTML = "Mojo";
+
+    // const newLI = document.createElement(li)
+    // newLI.textContent = "Hello";
+    // secondLang.replaceWith(newLI);
+
+
+    //second ediot
+    const firstLand = document.querySelector('li:first-child');
+    firstLand.outerHTML = '<li>TypeScript</li>'
+
+
+    // Remove
+
+    const lastLang = document.querySelector('li:last-child')
+    lastLang.remove();
     
 </script>
 </html>
