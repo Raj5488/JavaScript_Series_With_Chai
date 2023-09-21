@@ -1,0 +1,34 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#grey{
+    border: 2px solid black;
+    width: 10rem;
+    height: 10rem;
+    background-color: gray;
+}
+#blue{
+    border: 2px solid black;
+    width: 10rem;
+    border: 2px solid black;
+    height: 10rem;
+    background-color: blue;
+}
+
+#yellow{
+    width: 10rem;
+    height: 10rem;
+    background-color: yellow;
+}
