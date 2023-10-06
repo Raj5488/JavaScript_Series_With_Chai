@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Press</title>
+</head>
+<body>
+    <div id="insert"></div>
+        <div class="key">
+            Press the any keys
+        </div>
+</body>
+<script>
+
+    const insert = document.getElementById('insert')
+    window.addEventListener('keydown', (e)=>{
+        insert.innerHTML = `
+            <div class = 'color'>
+    <table>
+
+    <tr>
+        <th>Key</th>
+        <th>KeyCode</th>
+        <th>Code</th>
+    </tr>
+    <tr>
+        <td>${e.key === " "?'space' : e.key}</td>
+        <td>${e.keyCode}</td>
+        <td>${e.Code}</td>
+    </tr>
+
+    </table>   
+    </div>
+            `
+    })
+
+</script>
+</html>
