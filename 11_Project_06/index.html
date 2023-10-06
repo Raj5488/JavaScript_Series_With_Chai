@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Async</title>
+</head>
+<body>
+
+    <h1 id="Heading">About Async</h1>
+    <button id="stop">Stop</button>
+
+
+</body>
+    <script>
+
+
+    const changeFunc = function(){
+        document.querySelector('#Heading').innerHTML = "Change After Two Second"
+    }
+
+
+
+        // const jitu = function(){
+        //     console.log("Referece of Parameter")
+        // }
+
+        const StopToChange = setTimeout(changeFunc, 2000)
+
+            document.getElementById('stop').addEventListener('click',function(){
+                clearTimeout(StopToChange);
+                console.log("button will be stoped")
+            })
+
+        // setTimeout(jitu,2000)
+
+
+        // setTimeout(()=>{
+        //     console.log("Executed After Two minutes")
+        // },2000)
+
+    </script>
+</html>
